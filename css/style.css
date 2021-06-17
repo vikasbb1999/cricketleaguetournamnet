@@ -6,7 +6,7 @@ body,html{
 .parallax{
   width: auto;
   height: auto;
-      background-image: url(photos/s.JPG);
+      background-image: url("../photos/s.JPG");
       min-height: 550px;
       background-attachment: fixed;
       background-position: center;
