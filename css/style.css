@@ -2,15 +2,7 @@ body,html{
 	margin: 0;
   
 }
-.parallax{
-  
-      background-image: url("photos/s.jpg");
-      min-height: 550px;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-            }
+
 
 .aa {
  
