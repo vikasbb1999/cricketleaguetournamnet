@@ -1,0 +1,107 @@
+body,html{
+	margin: 0;
+  
+}
+
+.parallax{
+  width: auto;
+  height: auto;
+      background-image: url(../photos/s.JPG);
+      min-height: 550px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+            }
+
+
+                .parallax1{
+      background: url("../photos/bb1.JPG");
+      min-height: 350px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.aa {
+ 
+  background-color: rgba(0,0,0, 0.6);
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 30px;
+  
+  position: sticky;
+  top: 30%;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+        text-align: center;
+      }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
